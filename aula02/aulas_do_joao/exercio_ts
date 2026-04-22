@@ -1,0 +1,8 @@
+
+const cidades: string[] = ['São Paulo', 'Minas Gerais', 'Pernambuco', 'Coritiba', 'Salvador'];
+
+function listarCidades(listaDeCidades: string[]): void {
+  cidades.forEach(cidades=> console.log(cidades));
+}
+
+listarCidades(cidades);

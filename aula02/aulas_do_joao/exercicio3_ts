@@ -1,0 +1,19 @@
+interface Livro {
+    nome: string;
+    autor: string;
+    ano: number;
+}
+
+const novoLivro: Livro = {
+    nome: "O Hobbit",
+    autor: "J.R.R. Tolkien",
+    ano: 1937
+};
+
+function exibirLivro(livro: Livro): void {
+    console.log(`nome: ${livro.nome}`);
+    console.log(`autor: ${livro.autor}`);
+    console.log(`ano: ${livro.ano}`);
+}
+
+exibirLivro(novoLivro);
